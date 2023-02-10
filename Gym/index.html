@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<style>
+       body{
+        margin:0px;
+        padding:0px;
+        background:url('images/Larrywheelsimage.jpg');
+        background-repeat: no-repeat;
+        color:white;
+        background-size: cover;
+        font-family: 'Aboreto', cursive;
+        height:1080px;
+        width:auto;
+
+       }
+       .left{
+             
+             display:inline-block;
+             position: absolute;
+            top:20px;
+            left:34px;
+            text-align: center;
+            
+       }
+       .right{
+        
+        position: absolute;
+        right:34px;
+        top:20px;
+        display:inline-block;
+        
+       }
+       .center{
+        
+        display:block;
+        width:50%;
+        margin:20px auto;
+        text-align: center;
+       }
+       .navbar{
+        display:inline-block;
+       }
+       .navbar li{
+        display:inline-block;
+        font-size: 25px;
+       }
+       .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding:34px 23px;
+       }
+       .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color:grey;
+       }
+       .left img{
+        width:72px;
+        padding: 0px 15px 6px 15px;
+       }
+       .btn
+       {
+        font-family: 'Aboreto', cursive;
+        margin:0px 9px;
+        background-color: rgb(26, 35, 36);
+        color:white;
+        padding:3px 4px;
+        border-radius: 13px;
+        cursor: pointer;
+       }
+       .btn:hover{
+        background-color:gray;
+       }
+       .btn:active{
+        background-color:blueviolet;
+       }
+       .joiner{
+        border: 2px solid rgb(255, 255, 255);
+    margin: 31px 1078px;
+    padding: 23px 49px;
+    width: 33%;
+    background-color:black;
+    border-radius: 23px;
+}
+
+    
+       .form-group input{
+        border-radius: 23px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 25px;
+    border: 2px solid rgb(0, 0, 9);
+    margin: 3px auto;
+
+       }
+       .joiner h1{
+        text-align: center;
+       }
+       .joiner button{
+        display:block;
+        width:23%;
+        margin:auto;
+       }
+</style>
+<body>
+    <header class="header">
+         <!--Left box for logo-->
+        <div class="left">
+            <img src="images/Bodybuilding-and-gym-logo-on-transparent-background-PNG.png" alt="">
+            <div>Pro Fitness</div>
+        </div>
+         <!--Center box for nav-->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Gyms</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+         <!--Right box for buttons-->
+        <div class="right">
+         <button class="btn">Get Personalised Gym Plan</button>
+         <button class="btn">Email Us</button>
+        </div>
+        <div class="joiner">
+            <h1>Kickstart your fitness progress with us</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name=""placeholder="Enter your name">
+                    <input type="text" name=""placeholder="Enter your Age">
+                    <input type="text" name=""placeholder="Enter your Gender">
+                    <input type="text" name=""placeholder="Enter your Locality">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
